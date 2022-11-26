@@ -1,0 +1,29 @@
+digraph G {
+    fontname="Helvetica,Arial,sans-serif"
+    node [fontname="Helvetica,Arial,sans-serif",shape="rectangle",color="#00000000"]
+    edge [fontname="Helvetica,Arial,sans-serif"]
+    a [label="Feature selection",fontsize=24,color="#00000000"]
+    a -> {f, w, i}
+    f [label="Filter methods",color="#000000"]
+    f1 [label="Simple filters"]
+    f2 [label="Univariate"]
+    f3 [label="Multivariate"]
+    f -> {f1, f2, f3}
+    f1 -> f11
+    f2 -> f21
+    f3 -> f31
+    f11 [label="Variance Threshold\n\nMean absolute difference\n\nDispersion ratio",fontsize=12]
+    f21 [label="Fisher score\n\nChi-squared score\n\nSPEC and Laplacian Score\n\nMutual information\n\nRelief\n...",fontsize=12]
+    f31 [label="Inconsistency criterion\n\nmRmR\n\nMCFS\n\nCFS, FCBF\n\nRFS\n...",fontsize=12]
+
+    i [label="Embedded methods",color="#000000"]
+    i -> i11
+    i11 [label="SMLR (Sparse Multinomial\nLogistic Regression)\n\nLasso\n\nRidge\n\nElastic Net\n...",fontsize=12]
+
+    w [label="Wrapped methods",color="#000000"]
+    w -> w11
+    w11 [label="Forward selection\n\nBackward selection\n\nRFE (Recursive\nfeature elimination)\n\nExhaustive Feature Selection\n...",fontsize=12]
+    {rank = same; f11; f21; f31;  i11; w11}
+    {rank = same; f1; f2; f3; w; i}
+    
+}

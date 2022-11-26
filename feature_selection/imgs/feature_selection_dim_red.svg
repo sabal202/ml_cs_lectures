@@ -1,0 +1,106 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="676pt" height="275pt" viewBox="0.00 0.00 676.3 275.2">
+<g id="graph0" class="graph" transform="translate(4,271.20001220703125) scale(1)" data-name="G">
+
+<polygon fill="white" stroke="none" points="-4,4 -4,-271.2 672.3,-271.2 672.3,4 -4,4"/>
+<g id="clust3" class="cluster" data-name="cluster_type">
+
+<polygon fill="#ececec" stroke="#ececec" points="184,-16 184,-144.8 384,-144.8 384,-16 184,-16"/>
+<text text-anchor="middle" x="209.83" y="-130" font-family="Helvetica,Arial,sans-serif" font-size="12.00" fill="#868686">by type</text>
+</g><g id="clust1" class="cluster" data-name="cluster_selection">
+
+<polygon fill="none" stroke="#ce5c5c" points="8,-8 8,-202.4 392,-202.4 392,-8 8,-8"/>
+</g>
+<g id="clust2" class="cluster" data-name="cluster_supervised">
+
+<polygon fill="#ececec" stroke="#ececec" points="16,-16.4 16,-144.4 176,-144.4 176,-16.4 16,-16.4"/>
+<text text-anchor="middle" x="73.33" y="-129.6" font-family="Helvetica,Arial,sans-serif" font-size="12.00" fill="#868686">by classic toxonomy</text>
+</g>
+<!-- a0 -->
+<g id="node1" class="node" pointer-events="visible" data-name="a" data-comment="a0">
+
+<polygon fill="none" stroke="none" points="479.96,-267.1 262.04,-267.1 262.04,-230.5 479.96,-230.5 479.96,-267.1"/>
+<text text-anchor="middle" x="371" y="-241.6" font-family="Helvetica,Arial,sans-serif" font-size="24">Dimension reduction</text>
+</g>
+<!-- a1 -->
+
+<!-- a0&#45;&gt;a1 --><g id="node2" class="node" pointer-events="visible" data-name="b" data-comment="a0-&gt;a1">
+
+<polygon fill="none" stroke="black" points="339.74,-194.2 228.26,-194.2 228.26,-153 339.74,-153 339.74,-194.2"/>
+<text text-anchor="middle" x="284" y="-177.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Feature selection</text>
+<text text-anchor="middle" x="284" y="-161" font-family="Helvetica,Arial,sans-serif" font-size="14.00">(select data)</text>
+</g><!-- c --><g id="edge3" class="edge" data-name="a-&gt;b" data-comment="c">
+
+<path fill="none" stroke="black" d="M349.94,-230.08C339.86,-221.6 327.57,-211.26 316.34,-201.81"/>
+<polygon fill="black" stroke="black" points="318.69,-199.21 308.78,-195.45 314.18,-204.57 318.69,-199.21"/>
+</g>
+<g id="node5" class="node" pointer-events="visible" data-name="c">
+
+<polygon fill="none" stroke="black" points="517.95,-194.2 400.05,-194.2 400.05,-153 517.95,-153 517.95,-194.2"/>
+<text text-anchor="middle" x="459" y="-177.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Feature extraction</text>
+<text text-anchor="middle" x="459" y="-161" font-family="Helvetica,Arial,sans-serif" font-size="14.00">(transform data)</text>
+</g>
+<!-- a&#45;&gt;c -->
+
+<!-- d --><g id="edge4" class="edge" data-name="a-&gt;c" data-comment="d">
+
+<path fill="none" stroke="black" d="M392.3,-230.08C402.5,-221.6 414.93,-211.26 426.29,-201.81"/>
+<polygon fill="black" stroke="black" points="428.49,-204.53 433.94,-195.45 424.01,-199.15 428.49,-204.53"/>
+</g>
+<g id="node6" class="node" pointer-events="visible" data-name="c1" data-comment="d">
+
+<polygon fill="none" stroke="none" points="515.65,-89.8 400.35,-89.8 400.35,-48.6 515.65,-48.6 515.65,-89.8"/>
+<text text-anchor="middle" x="458" y="-73.4" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Linear methods</text>
+<text text-anchor="middle" x="458" y="-56.6" font-family="Helvetica,Arial,sans-serif" font-size="14.00">(PCA, LDA, etc.)</text>
+</g>
+<!-- c&#45;&gt;c1 --><g id="node3" class="node" pointer-events="visible" data-name="b1" data-comment="c-&gt;c1">
+
+<polygon fill="none" stroke="none" points="167.93,-113.8 24.07,-113.8 24.07,-24.6 167.93,-24.6 167.93,-113.8"/>
+<text text-anchor="middle" x="96" y="-97.4" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Supervised methods</text>
+<text text-anchor="middle" x="96" y="-64.6" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Unsupervised methods</text>
+</g>
+<!-- c&#45;&gt;c1 --><g id="node4" class="node" pointer-events="visible" data-name="b2" data-comment="c-&gt;c1">
+
+<polygon fill="none" stroke="none" points="375.68,-114.6 192.32,-114.6 192.32,-23.8 375.68,-23.8 375.68,-114.6"/>
+<text text-anchor="middle" x="284" y="-97.8" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Filter methods</text>
+<text text-anchor="middle" x="284" y="-65" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Wrapped methods</text>
+<text text-anchor="middle" x="284" y="-32.2" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Intristic (Embedded) methods</text>
+</g><g id="edge5" class="edge" data-name="b-&gt;b1" data-comment="c-&gt;c1">
+
+<path fill="none" stroke="black" d="M227.94,-162.68C211.87,-158.51 194.73,-152.73 180,-144.8 168.33,-138.52 156.93,-130.31 146.49,-121.65"/>
+<polygon fill="black" stroke="black" points="148.96,-119.16 139.1,-115.28 144.39,-124.46 148.96,-119.16"/>
+</g>
+<g id="edge1" class="edge" data-name="c-&gt;c1">
+
+<path fill="none" stroke="black" d="M458.81,-152.86C458.67,-138.36 458.47,-118.37 458.31,-101.68"/>
+<polygon fill="black" stroke="black" points="461.81,-101.71 458.21,-91.75 454.81,-101.78 461.81,-101.71"/>
+</g>
+<g id="node7" class="node" pointer-events="visible" data-name="c2" data-comment="c-&gt;c1">
+
+<polygon fill="none" stroke="none" points="668.1,-89.8 533.9,-89.8 533.9,-48.6 668.1,-48.6 668.1,-89.8"/>
+<text text-anchor="middle" x="601" y="-73.4" font-family="Helvetica,Arial,sans-serif" font-size="14.00">Nonlinear methods</text>
+<text text-anchor="middle" x="601" y="-56.6" font-family="Helvetica,Arial,sans-serif" font-size="14.00">(t-SNE, UMAP, etc.)</text>
+</g>
+<!-- c&#45;&gt;2 -->
+<!-- c&#45;&gt;c2 -->
+<!-- c&#45;&gt;c2 -->
+<!-- c&#45;&gt;c2 -->
+<!-- c&#45;&gt;c2 -->
+
+<g id="edge2" class="edge" data-name="c-&gt;c2">
+
+<path fill="none" stroke="black" d="M511.83,-152.51C516.4,-150.13 520.86,-147.56 525,-144.8 544.3,-131.95 562.92,-113.79 576.91,-98.61"/>
+<polygon fill="black" stroke="black" points="579.48,-100.98 583.56,-91.2 574.28,-96.3 579.48,-100.98"/>
+</g>
+<g id="edge6" class="edge" data-name="b-&gt;b2" data-comment="c-&gt;c2">
+
+<path fill="none" stroke="black" d="M284,-152.86C284,-145.09 284,-135.74 284,-126.17"/>
+<polygon fill="black" stroke="black" points="287.5,-126.42 284,-116.42 280.5,-126.42 287.5,-126.42"/>
+</g>
+
+
+
+
+
+</g>
+</svg>

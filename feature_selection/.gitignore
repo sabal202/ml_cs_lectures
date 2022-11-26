@@ -1,0 +1,7 @@
+*
+!.gitignore
+
+!*.ipynb
+!*.py
+!/data/
+!/imgs/

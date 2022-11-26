@@ -1,0 +1,8 @@
+*
+!.gitignore
+
+!*.jpg
+!*.png
+!*.dot
+!*.svg
+!*.html

@@ -1,0 +1,45 @@
+digraph G {
+  fontname="Helvetica,Arial,sans-serif"
+  node [fontname="Helvetica,Arial,sans-serif",shape="rectangle"]
+	edge [fontname="Helvetica,Arial,sans-serif"]
+  a [label="Dimension reduction",fontsize=24,color="#00000000"]
+   
+  subgraph cluster_selection {
+      color="#ce5c5c";
+      // style=filled;
+      // label = "Feature selection";
+      b [label="Feature selection\n(select data)"];
+      
+    subgraph cluster_supervised {
+        color="#ececec";
+        style=filled;
+        node [shape="rectangle",color="#ffffff00",style=filled];
+        label = "by classic toxonomy";fontcolor="#868686";fontsize=12;labeljust=l
+        b1 [label="Supervised methods\n\nUnsupervised methods\n\n\n"];
+    }
+
+    subgraph cluster_type {
+        color="#ececec";
+        style=filled;
+        node [shape="rectangle",color="#ffffff00",style=filled];
+        label = "by type";fontcolor="#868686";fontsize=12;labeljust=l
+        // {rank = same; b1; b3}
+        b2 [label="Filter methods\n\nWrapped methods\n\nIntristic (Embedded) methods",group=g2];
+
+    }
+  }
+
+
+  subgraph extraction {
+    // style=filled;color="#be8787";shape=circle;
+    // node [shape="rectangle"];
+    c [label="Feature extraction\n(transform data)"];
+    c -> {c1, c2};
+    
+    c1 [label="Linear methods\n(PCA, LDA, etc.)",color="#ffffff00"]
+    c2 [label="Nonlinear methods\n(t-SNE, UMAP, etc.)",color="#ffffff00"]
+  }
+  a -> {b, c}
+  b -> {b1, b2}
+  
+}

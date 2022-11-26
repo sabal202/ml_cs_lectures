@@ -1,0 +1,9 @@
+*
+!.gitignore
+
+!feature_selection/
+!pca/
+
+!env.yaml
+!package-list.txt
+
