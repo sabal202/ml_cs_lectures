@@ -3,6 +3,7 @@
 
 !feature_selection/
 !pca/
+!decision_trees_boosting/
 
 !env.yaml
 !package-list.txt

@@ -1,0 +1,39 @@
+name: classification2021
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - numpy
+  - tqdm
+  - lxml
+  - pandas
+  - ply
+  - scipy
+  - seaborn
+  - notebook
+  - joblib
+  - pyparsing
+  - jupyter_nbextensions_configurator
+  - rise
+  - jupyterlab
+  - autopep8
+  - catboost
+  - plotly
+  - pip
+  - pip:
+    - atomicwrites
+    - colour
+    - dtreeviz
+    - iniconfig
+    - ipywidgets
+    - jupyterlab-widgets
+    - lightgbm
+    - mlens
+    - pluggy
+    - py
+    - pytest
+    - scikit-learn
+    - threadpoolctl
+    - widgetsnbextension
+    - xgboost
