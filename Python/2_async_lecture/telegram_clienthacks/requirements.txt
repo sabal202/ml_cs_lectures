@@ -1,0 +1,3 @@
+Wikipedia-API
+bs4
+pyrogram

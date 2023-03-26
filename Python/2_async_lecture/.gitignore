@@ -1,0 +1,8 @@
+*
+!.gitignore
+
+!*.ipynb
+!*.py
+!/telegram_clienthacks
+!/data/
+!/async_step_guide

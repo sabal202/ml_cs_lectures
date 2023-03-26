@@ -4,6 +4,7 @@
 !feature_selection/
 !pca/
 !decision_trees_boosting/
+!Python
 
 !env.yaml
 !package-list.txt
