@@ -1,14 +1,10 @@
 import asyncio
 import random
-import time
-from time import sleep
-from pyrogram.errors import FloodWait
-from pyrogram.types import ChatPermissions, Message
 
+from pyrogram.errors import FloodWait
+from pyrogram.types import Message
 
 SLEEP = 0.1
-
-
 R = "❤️"
 W = "🤍"
 
@@ -72,5 +68,4 @@ async def _wrap_edit(message: Message, text: str):
     try:
         await message.edit(text)
     except FloodWait as fl:
-        await asyncio.sleep(fl.x)
-
+        await asyncio.sleep(fl.value)
